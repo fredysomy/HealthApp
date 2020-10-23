@@ -106,8 +106,10 @@ class Ui_ConsultDoctor(object):
         self.consultsavetext.clicked.connect(self.SavePractoFile)
     def PractoProject(self):
         s1=self.specialist.text()
-        s2=self.location.text()
-        url="https://www.practo.com/search?results_type=doctor&q=%5B%7B%22word%22%3A%22{}%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22subspeciality%22%7D%2C%7B%22word%22%3A%22{}%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22locality%22%7D%5D&city=Kottayam".format(s1,s2)
+        s2=self.location.text().split(",")
+        s3=s2[0]
+        s4=s2[1]
+        url="https://www.practo.com/search?results_type=doctor&q=%5B%7B%22word%22%3A%22{}%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22subspeciality%22%7D%2C%7B%22word%22%3A%22{}%22%2C%22autocompleted%22%3Atrue%2C%22category%22%3A%22locality%22%7D%5D&city={}".format(s1,s3,s4)
         re=requests.get(url)
         so=BeautifulSoup(re.content,'html5lib')
         a=so.find_all('div',class_="u-border-general--bottom")
@@ -154,7 +156,7 @@ class Ui_ConsultDoctor(object):
         self.consult.setText(_translate("ConsultDoctor", "Search"))
         self.consultsavedata.setText(_translate("ConsultDoctor", "Save to Database"))
         self.consultsavetext.setText(_translate("ConsultDoctor", "Save as text file"))
-
+        self.location.setPlaceholderText(_translate("ConsultDoctor","PLace , City(Must)"))
 
 if __name__ == "__main__":
     import sys

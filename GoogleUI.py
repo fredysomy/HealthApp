@@ -54,20 +54,7 @@ class Ui_Google(object):
 "font: 87 12pt \"Nunito Black\";\n"
 "border-radius: 10px;")
         self.Gres.setObjectName("Gres")
-        self.Gsavedata = QtWidgets.QPushButton(self.centralwidget)
-        self.Gsavedata.setGeometry(QtCore.QRect(850, 230, 141, 31))
-        self.Gsavedata.setStyleSheet("border-radius:10px;\n"
-"font: 75 11pt \"Nunito\";\n"
-"background-color: #3CB7A1;\n"
-"color: white;")
-        self.Gsavedata.setObjectName("Gsavedata")
-        self.Gsavetext = QtWidgets.QPushButton(self.centralwidget)
-        self.Gsavetext.setGeometry(QtCore.QRect(850, 270, 141, 31))
-        self.Gsavetext.setStyleSheet("border-radius:10px;\n"
-"font: 75 11pt \"Nunito\";\n"
-"background-color: #3CB7A1;\n"
-"color: white;")
-        self.Gsavetext.setObjectName("Gsavetext")
+      
         Google.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(Google)
@@ -76,41 +63,44 @@ class Ui_Google(object):
         self.Ggo.clicked.connect(self.googleProject)
 
     def googleProject(self):
-        input = self.Gquery.text()
-        if len(input) == 0:
-            msg = QMessageBox()
-            msg.setIcon(QMessageBox.Information)
-            msg.setText("Zero Input Error")
-            msg.setInformativeText("Type something to search")
-            msg.setWindowTitle('Error')
-            msg.exec_()
-        else:
-            lsd=" "
-            url="https://www.google.com/search?q="+input+"&start=0&sa=N&ved=2ahUKEwi7_fTxvcPrAhUy6XMBHahXAuc4ChDy0wN6BAgLEC8&biw=1600&bih=757"
-            r=requests.get(url)
-            soup=BeautifulSoup(r.content,'html5lib')
-            f=soup.find('div',id="main")
-            for i in range(1,len(f)-1):
-                try:
-                    g=f.find_all(class_='ZINbbc xpd O9g5cc uUPGi')[i]
-                    desc=g.find(class_="BNeawe vvjwJb AP7Wnd").getText()
-                    desc2=g.find(class_="BNeawe s3v9rd AP7Wnd").getText()
-                    
+        try:
+            input1 = self.Gquery.text()
+            if len(input1) == 0:
+                msg = QMessageBox()
+                msg.setIcon(QMessageBox.Information)
+                msg.setText("Zero Input Error")
+                msg.setInformativeText("Type something to search")
+                msg.setWindowTitle('Error')
+                msg.exec_()
+            else:
+                lsd=" "
+                url="https://www.google.com/search?q="+input1+"&start=1&sa=N&ved=2ahUKEwi7_fTxvcPrAhUy6XMBHahXAuc4ChDy0wN6BAgLEC8&biw=1600&bih=757"
+                r=requests.get(url)
+                soup=BeautifulSoup(r.content,'html5lib')
+                f=soup.find(id="main")
+                for i in range(1,len(f)-1):
                     try:
-                        u=g.find('a')['href']
-                        x=u.split('&')[0].split('?q=')[1]
-                        lsd=lsd+"\n"+desc+"\n"+desc2+"\n"+x+"\n"+"__________________"+"\n"
+                        g=f.find_all(class_='ZINbbc xpd O9g5cc uUPGi')[i]
+                        desc=g.find(class_="BNeawe vvjwJb AP7Wnd").getText()
+                        desc2=g.find(class_="BNeawe s3v9rd AP7Wnd").getText()
                         
+                        try:
+                            u=g.find('a')['href']
+                            x=u.split('&')[0].split('?q=')[1]
+                            lsd=lsd+"\n"+desc+"\n"+desc2+"\n"+x+"\n"+"__________________"+"\n"
+                            
+                        except:
+                            u=g.find('a')['href']
+                            x=u.split('&')[0]
+                            gh={"url":x,"desc":desc,"desc2":desc2}
+                            l=l+[gh]
+                            lsd=lsd+"\n"+desc+"\n"+desc2+"\n"+x+"\n"+"__________________"+"\n"
+                            
                     except:
-                        u=g.find('a')['href']
-                        x=u.split('&')[0]
-                        gh={"url":x,"desc":desc,"desc2":desc2}
-                        l=l+[gh]
-                        lsd=lsd+"\n"+desc+"\n"+desc2+"\n"+x+"\n"+"__________________"+"\n"
-                        
-                except:
-                    print()
-            self.Gres.append(str(lsd))
+                        print(" ")
+                self.Gres.append(str(lsd))
+        except:
+            self.Gres.append(str("There was some error"))
 
     def retranslateUi(self, Google):
         _translate = QtCore.QCoreApplication.translate
@@ -119,8 +109,7 @@ class Ui_Google(object):
         self.Gquery.setText(_translate("Google", ""))
         self.Gquery.setPlaceholderText(_translate("Google", "                        Search here"))
         self.Ggo.setText(_translate("Google", "GO"))
-        self.Gsavedata.setText(_translate("Google", "Save to database"))
-        self.Gsavetext.setText(_translate("Google", "Save as test file"))
+        
 
 
 if __name__ == "__main__":

@@ -167,19 +167,23 @@ class Ui_HealthApp(object):
             msg.setWindowTitle('Error')
             msg.exec_()
         else:
-            url = f"https://medlineplus.gov/{disease}.html"
-            html_content = requests.get(url).text
-            soup = BeautifulSoup(html_content, "lxml")
-            main_class = soup.find("div", attrs={"id":"topic-summary"})
-            link = main_class.find("a")
-            res = main_class.text
-            self.result.append(str(res))
+            try:
+                url = f"https://medlineplus.gov/{disease}.html"
+                html_content = requests.get(url).text
+                soup = BeautifulSoup(html_content, "html5lib")
+                main_class = soup.find("div",id="topic-summary")
+                link = main_class.find("a")
+                res = main_class.text
+                self.result.append(str(res))
+            except:
+                self.result.append(str("Sorry Results Could not be fetched right now"))
+                   
 
 
     def retranslateUi(self, HealthApp):
         _translate = QtCore.QCoreApplication.translate
         HealthApp.setWindowTitle(_translate("HealthApp", "MainWindow"))
-        self.query.setPlaceholderText(_translate("HealthApp", "                        Search here"))
+        self.query.setPlaceholderText(_translate("HealthApp", "                      Search here"))
         self.go.setText(_translate("HealthApp", "GO"))
         self.heading.setText(_translate("HealthApp", "     HealthApp"))
         self.wikipedia.setText(_translate("HealthApp", "Wikipedia"))

@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 import requests
 import html5lib
 import mysql.connector as msql
-con=msql.connect(host="localhost",user="root",passwd="alphin",database="healthapp")
+con=msql.connect(host="localhost",user="root",passwd="student",database="healthapp")
 
 
 

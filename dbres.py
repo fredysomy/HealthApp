@@ -11,7 +11,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QMessageBox
 import mysql.connector as msql
-con=msql.connect(host="localhost",user="root",passwd="alphin",database="healthapp")
+con=msql.connect(host="localhost",user="root",passwd="student",database="healthapp")
 
 
 
