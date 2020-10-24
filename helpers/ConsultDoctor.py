@@ -133,7 +133,7 @@ class Ui_ConsultDoctor(object):
                 h=d.find_all('div',class_="uv2-spacer--sm-top")   
                 addd=addd+"\n"+name+"\n"+url+h[0].getText()+"\n"+add+"\n"+proff+"\n"+"#######################################"+"\n"
             except:
-                pass 
+                 self.textBrowser.append(str("There has been a error connnecting host,Please try again later"))
         self.textBrowser.append(str(addd))
 
     def SavePractoFile(self):
@@ -156,7 +156,7 @@ class Ui_ConsultDoctor(object):
         self.consult.setText(_translate("ConsultDoctor", "Search"))
         self.consultsavedata.setText(_translate("ConsultDoctor", "Save to Database"))
         self.consultsavetext.setText(_translate("ConsultDoctor", "Save as text file"))
-        self.location.setPlaceholderText(_translate("ConsultDoctor","PLace , City(Must)"))
+        self.location.setPlaceholderText(_translate("ConsultDoctor","Place,City ( Both required ) "))
 
 if __name__ == "__main__":
     import sys
