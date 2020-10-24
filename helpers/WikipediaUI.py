@@ -13,7 +13,11 @@ from bs4 import BeautifulSoup
 import requests
 import html5lib
 import mysql.connector as msql
-con=msql.connect(host="localhost",user="root",passwd="student",database="healthapp")
+import yaml
+db = yaml.load(open('../db.yaml'))
+user=db['user']
+password=db['password']
+con=msql.connect(host="localhost",user=user,passwd=password,database="healthapp")
 
 
 
