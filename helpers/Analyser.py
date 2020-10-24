@@ -11,7 +11,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 import requests
 import json
-
+from PyQt5.QtWidgets import QMessageBox
 
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
@@ -84,29 +84,37 @@ class Ui_Dialog(object):
         QtCore.QMetaObject.connectSlotsByName(Dialog)
         self.CitySearch.clicked.connect(self.getresource)
     def getresource(self):
-        a=requests.get('https://api.covid19india.org/resources/resources.json')
-        b=a.text
-        s=json.loads(b)
-        data=s["resources"]
-        y=" "
-        xu=" "
-        for i in range(0,len(data)):
-            x=data[i]
-            if x["state"]=="Kerala":
-                y=y+x["category"]+"\n"+x["descriptionandorserviceprovided"]+"\n"+x["city"]+"\n"+x["phonenumber"]+"\n"+x["nameoftheorganisation"]+"\n"+"----"+"\n"
-            else:
-                continue
-            
-        ab=requests.get('https://api.covid19india.org/zones.json')
-        b=ab.text
-        s2=json.loads(b)
-        z=s2["zones"]
-        for i in range(0,734):
-            y3=z[i]
-            if y3["statecode"]=="KL":
-                xu=xu+y3["district"]+"-"+y3["zone"]+"\n"+"---"+"\n"
-        self.ZoneBrowser.append(str(xu))
-        self.ResourceBrower.append(str(y))
+        try:
+            a=requests.get('https://api.covid19india.org/resources/resources.json')
+            b=a.text
+            s=json.loads(b)
+            data=s["resources"]
+            y=" "
+            xu=" "
+            for i in range(0,len(data)):
+                x=data[i]
+                if x["state"]=="Kerala":
+                    y=y+x["category"]+"\n"+x["descriptionandorserviceprovided"]+"\n"+x["city"]+"\n"+x["phonenumber"]+"\n"+x["nameoftheorganisation"]+"\n"+"----"+"\n"
+                else:
+                    continue
+                
+            ab=requests.get('https://api.covid19india.org/zones.json')
+            b=ab.text
+            s2=json.loads(b)
+            z=s2["zones"]
+            for i in range(0,734):
+                y3=z[i]
+                if y3["statecode"]=="KL":
+                    xu=xu+y3["district"]+"-"+y3["zone"]+"\n"+"---"+"\n"
+            self.ZoneBrowser.append(str(xu))
+            self.ResourceBrower.append(str(y))
+        except:
+            msg = QMessageBox()
+            msg.setIcon(QMessageBox.Warning)
+            msg.setText("Error")
+            msg.setInformativeText("Check the spelling and try again!")
+            msg.setWindowTitle('Error')
+            msg.exec_()
         
             
         
