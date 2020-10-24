@@ -131,7 +131,7 @@ class Ui_Wikipedia(object):
             
             
     def wikitextsave(self):
-        s=self.Wikiquery.text()+".txt"
+        s="../txtfiles/"+self.Wikiquery.text()+".txt"
         fd=open(s,'w',encoding='utf-8')
         fd.write(self.wikiresult.toPlainText())
         fd.close()

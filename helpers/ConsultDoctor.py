@@ -132,7 +132,7 @@ class Ui_ConsultDoctor(object):
         self.textBrowser.append(str(addd))
 
     def SavePractoFile(self):
-        s=self.specialist.text()+"in"+self.location.text()+".txt"
+        s="../txtfiles/"+self.specialist.text()+"in"+self.location.text()+".txt"
         fd=open(s,'w',encoding='utf-8')
         fd.write(self.textBrowser.toPlainText())
         fd.close()
