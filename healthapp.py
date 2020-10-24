@@ -176,7 +176,12 @@ class Ui_HealthApp(object):
                 res = main_class.text
                 self.result.append(str(res))
             except:
-                self.result.append(str("Sorry Results Could not be fetched right now"))
+                msg = QMessageBox()
+                msg.setIcon(QMessageBox.Warning)
+                msg.setText("Error")
+                msg.setInformativeText("Check the spelling and try again!")
+                msg.setWindowTitle('Error')
+                msg.exec_()
                    
 
 

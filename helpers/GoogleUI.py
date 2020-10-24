@@ -100,7 +100,12 @@ class Ui_Google(object):
                         print(" ")
                 self.Gres.append(str(lsd))
         except:
-            self.Gres.append(str("There was some error"))
+            msg = QMessageBox()
+            msg.setIcon(QMessageBox.Warning)
+            msg.setText("Error")
+            msg.setInformativeText("An error occured")
+            msg.setWindowTitle('Error')
+            msg.exec_()
 
     def retranslateUi(self, Google):
         _translate = QtCore.QCoreApplication.translate

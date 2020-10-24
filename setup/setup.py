@@ -4,7 +4,7 @@ import mysql.connector as msql
 
 #INPUT PASSWORD BELOW
 
-con=msql.connect(host="localhost",user="root",passwd=" ")  #INPUT PASSWORD OF MYSQL AND THEN RUN
+con=msql.connect(host="localhost",user="root",passwd="shahin")  #INPUT PASSWORD OF MYSQL AND THEN RUN
 
 if con.is_connected():
     
