@@ -12,6 +12,8 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from bs4 import BeautifulSoup
 import requests
 import html5lib
+from PyQt5.QtWidgets import QMessageBox
+
 
 class Ui_Drugs(object):
     def setupUi(self, Drugs):
@@ -68,13 +70,21 @@ class Ui_Drugs(object):
 
 
     def getDrug(self):
-        disease = self.drugsearch.text()
-        url = f"https://www.medindia.net/drugs/medical-condition/{disease}.htm"
-        html_content = requests.get(url)
-        soup = BeautifulSoup(html_content.content,"html5lib")
-        main_class = soup.find_all("article")[0]
-        link = main_class.find_all("a")
-        self.drugres.append(str(link[0].getText()))
+        try:
+            disease = self.drugsearch.text()
+            url = f"https://www.medindia.net/drugs/medical-condition/{disease}.htm"
+            html_content = requests.get(url)
+            soup = BeautifulSoup(html_content.content,"html5lib")
+            main_class = soup.find_all("article")[0]
+            link = main_class.find_all("a")
+            self.drugres.append(str(link[0].getText()))
+        except:
+            msg = QMessageBox()
+            msg.setIcon(QMessageBox.Warning)
+            msg.setText("Zero Input Error")
+            msg.setInformativeText("An error occured")
+            msg.setWindowTitle('Error')
+            msg.exec_()
 
 
     def retranslateUi(self, Drugs):

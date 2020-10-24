@@ -47,14 +47,22 @@ class Ui_Saved(object):
         QtCore.QMetaObject.connectSlotsByName(Saved)
         self.DatabaseRefresh.clicked.connect(self.getdb)
     def getdb(self):
-        x=" "
-        sql_select_Query = "select * from checking"
-        cur = con.cursor()
-        cur.execute(sql_select_Query)
-        records = cur.fetchall()
-        for row in records:
-            x=x+"\n"+row[1]
-        self.DatabaseBrowser.append(str(x))   
+        try:
+            x=" "
+            sql_select_Query = "select * from checking"
+            cur = con.cursor()
+            cur.execute(sql_select_Query)
+            records = cur.fetchall()
+            for row in records:
+                x=x+"\n"+row[1]
+            self.DatabaseBrowser.append(str(x))   
+        except:
+            msg = QMessageBox()
+            msg.setIcon(QMessageBox.Warning)
+            msg.setText("Zero Input Error")
+            msg.setInformativeText("An error occured")
+            msg.setWindowTitle('Error')
+            msg.exec_()
             
         
     def retranslateUi(self, Saved):

@@ -84,44 +84,52 @@ class Ui_Wikipedia(object):
         self.Wikisavetext.clicked.connect(self.wikitextsave)
         self.WIkisavedata.clicked.connect(self.wikidata)
     def wikiProject(self):
-        input = self.Wikiquery.text()
-        ads=input
-        if len(input) == 0:
+        try:
+            input = self.Wikiquery.text()
+            ads=input
+            if len(input) == 0:
+                msg = QMessageBox()
+                msg.setIcon(QMessageBox.Warning)
+                msg.setText("Zero Input Error")
+                msg.setInformativeText("Type something to search")
+                msg.setWindowTitle('Error')
+                msg.exec_()
+            else:
+                r=requests.get('https://en.wikipedia.org/wiki/{}'.format(input))
+                so=BeautifulSoup(r.content,'html5lib')
+                title=so.find("h1",class_="firstHeading").getText()
+                p=so.find_all("p")[2].getText()
+                s=so.find('table',class_="infobox")
+                f=s.find('tbody')
+                one=s.find_all('tr')[1]
+                oneo=one.find('th').getText()
+                onet=one.find('td').getText()
+                two=s.find_all('tr')[5]
+                twoo=two.find('th').getText()
+                twot=two.find('td').getText()
+                three=s.find_all('tr')[6]
+                threeo=three.find('th').getText()
+                threet=three.find('td').getText()
+                four=s.find_all('tr')[7]
+                fouro=four.find('th').getText()
+                fourt=four.find('td').getText()
+                five=s.find_all('tr')[8]
+                fiveo=five.find('th').getText()
+                fivet=five.find('td').getText()
+                six=s.find_all('tr')[9]
+                sixo=six.find('th').getText()
+                sixt=six.find('td').getText()
+                wiki=title+"\n"+"___________"+"\n"+p+"___________"+"\n"+oneo+"--"+onet+"\n"+twoo+"--"+twot+"\n"+threeo+"--"+threet+"\n"+fouro+"--"+fourt+"\n"+fiveo+"--"+fivet+"\n"+sixo+"--"+sixt+"\n"+"_____________"
+                self.wikiresult.append(str(wiki))
+        except:
             msg = QMessageBox()
             msg.setIcon(QMessageBox.Warning)
             msg.setText("Zero Input Error")
-            msg.setInformativeText("Type something to search")
+            msg.setInformativeText("An error occured")
             msg.setWindowTitle('Error')
             msg.exec_()
-        else:
-            r=requests.get('https://en.wikipedia.org/wiki/{}'.format(input))
-            so=BeautifulSoup(r.content,'html5lib')
-            title=so.find("h1",class_="firstHeading").getText()
-            p=so.find_all("p")[2].getText()
-            s=so.find('table',class_="infobox")
-            f=s.find('tbody')
-            one=s.find_all('tr')[1]
-            oneo=one.find('th').getText()
-            onet=one.find('td').getText()
-            two=s.find_all('tr')[5]
-            twoo=two.find('th').getText()
-            twot=two.find('td').getText()
-            three=s.find_all('tr')[6]
-            threeo=three.find('th').getText()
-            threet=three.find('td').getText()
-            four=s.find_all('tr')[7]
-            fouro=four.find('th').getText()
-            fourt=four.find('td').getText()
-            five=s.find_all('tr')[8]
-            fiveo=five.find('th').getText()
-            fivet=five.find('td').getText()
-            six=s.find_all('tr')[9]
-            sixo=six.find('th').getText()
-            sixt=six.find('td').getText()
-            wiki=title+"\n"+"___________"+"\n"+p+"___________"+"\n"+oneo+"--"+onet+"\n"+twoo+"--"+twot+"\n"+threeo+"--"+threet+"\n"+fouro+"--"+fourt+"\n"+fiveo+"--"+fivet+"\n"+sixo+"--"+sixt+"\n"+"_____________"
-        
             
-            self.wikiresult.append(str(wiki))
+            
     def wikitextsave(self):
         s=self.Wikiquery.text()+".txt"
         fd=open(s,'w',encoding='utf-8')

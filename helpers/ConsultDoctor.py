@@ -123,7 +123,12 @@ class Ui_ConsultDoctor(object):
                 h=d.find_all('div',class_="uv2-spacer--sm-top")   
                 addd=addd+"\n"+name+"\n"+url+h[0].getText()+"\n"+add+"\n"+proff+"\n"+"#######################################"+"\n"
             except:
-                 self.textBrowser.append(str("There has been a error connnecting host,Please try again later"))
+                msg = QMessageBox()
+                msg.setIcon(QMessageBox.Warning)
+                msg.setText("Zero Input Error")
+                msg.setInformativeText("An error occured")
+                msg.setWindowTitle('Error')
+                msg.exec_()
         self.textBrowser.append(str(addd))
 
     def SavePractoFile(self):
