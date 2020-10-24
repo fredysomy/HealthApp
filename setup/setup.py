@@ -1,10 +1,12 @@
 #for creating a database and table 
 
 import mysql.connector as msql
+import yaml
 
-#INPUT PASSWORD BELOW
-
-con=msql.connect(host="localhost",user="root",passwd="shahin")  #INPUT PASSWORD OF MYSQL AND THEN RUN
+db = yaml.load(open('../db.yaml'))
+user=db['user']
+password=db['password']
+con=msql.connect(host="localhost",user=user,passwd=password,database="healthapp")
 
 if con.is_connected():
     
