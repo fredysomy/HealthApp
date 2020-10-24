@@ -12,12 +12,12 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QMessageBox
 from bs4 import BeautifulSoup
 import requests
-from ConsultDoctor import Ui_ConsultDoctor
-from drugui import Ui_Drugs
-from Analyser import Ui_Dialog
-from WikipediaUI import Ui_Wikipedia
-from GoogleUI import Ui_Google
-from dbres import Ui_Saved
+from helpers.ConsultDoctor import Ui_ConsultDoctor
+from helpers.drugui import Ui_Drugs
+from helpers.Analyser import Ui_Dialog
+from helpers.WikipediaUI import Ui_Wikipedia
+from helpers.GoogleUI import Ui_Google
+from helpers.dbres import Ui_Saved
 
 class Ui_HealthApp(object):
     def consultDoctor(self):
