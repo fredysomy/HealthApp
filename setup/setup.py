@@ -6,7 +6,7 @@ import yaml
 db = yaml.load(open('../db.yaml'))
 user=db['user']
 password=db['password']
-con=msql.connect(host="localhost",user=user,passwd=password,database="healthapp")
+con=msql.connect(host="localhost",user=user,passwd=password)
 
 if con.is_connected():
     
