@@ -23,7 +23,7 @@ runsetup root student
 ### Changelog
 v1.0.0-alpha
 * Released  the setup file which automate the app initialization <br>
-Future releases:
+##### Future releases:
 * In v1.5.0 we will be releasing version with sqlite support (no need of mysql driver)
 * In v2.0.0 we will be releasing the executables.
 ### Credits:
