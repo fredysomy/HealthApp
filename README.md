@@ -11,6 +11,10 @@ There is no need to install all the modules as it will be installed when running
 ```batch
 runsetup <mysql username> <mysql password>
 ```
+Eg:
+```batch
+runsetup root student
+```
 ***runsetup is still in the beta version***
 ### Credits:
 * [Fredy Somy](https://github.com/fredysomy)
