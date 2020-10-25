@@ -7,6 +7,7 @@ Download the zip file [from here](https://github.com/fredysomy/HeathApp/archive/
 ### Run (Beta version)
 The main project can be settted up easily with the help of 1 command.
 > Navigate to the project folder and open the command window there.
+There is no need to install all the modules as it will be installed when running the below command.
 ```batch
 runsetup <mysql username> <mysql password>
 ```
