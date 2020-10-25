@@ -53,20 +53,14 @@ class Ui_Dialog(object):
 "font: 81 24pt \"Nunito ExtraBold\";\n"
 "")
         self.heading_3.setObjectName("heading_3")
-        self.city = QtWidgets.QLineEdit(Dialog)
-        self.city.setGeometry(QtCore.QRect(380, 190, 201, 31))
+
         font = QtGui.QFont()
         font.setFamily("Nunito")
         font.setPointSize(12)
         font.setBold(False)
         font.setItalic(False)
         font.setWeight(7)
-        self.city.setFont(font)
-        self.city.setStyleSheet("border-radius:10px;\n"
-"background-color: white;")
-        self.city.setCursorMoveStyle(QtCore.Qt.LogicalMoveStyle)
-        self.city.setClearButtonEnabled(False)
-        self.city.setObjectName("city")
+        
         self.CitySearch = QtWidgets.QPushButton(Dialog)
         self.CitySearch.setGeometry(QtCore.QRect(430, 230, 101, 31))
         self.CitySearch.setStyleSheet("border-radius:10px;\n"
@@ -125,9 +119,9 @@ class Ui_Dialog(object):
         self.Visualiser.setText(_translate("Dialog", "Visualiser"))
         self.heading_2.setText(_translate("Dialog", "Resources"))
         self.heading_3.setText(_translate("Dialog", "Zones"))
-        self.city.setPlaceholderText(_translate("Dialog", "  Enter your city"))
+        
         self.CitySearch.setText(_translate("Dialog", "Search"))
-        self.heading_4.setText(_translate("Dialog", "City"))
+       
 
 
 if __name__ == "__main__":
