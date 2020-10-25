@@ -8,7 +8,7 @@
 ```git 
 git clone https://github.com/fredysomy/HeathApp
 ```
-### Run (Beta version):
+### Run (Stable):
 The main project can be settted up easily with the help of 1 command.
 > Navigate to the project folder and open the command window there.
 There is no need to install all the modules as it will be installed when running the below command.
@@ -19,7 +19,6 @@ Eg:
 ```batch
 runsetup root student
 ```
-***runsetup is still in the beta version***
 ### Changelog
 ##### v1.0.0-alpha
 * Released  the setup file which automate the app initialization <br>
