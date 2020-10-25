@@ -22,7 +22,7 @@ runsetup root student
 ### Changelog
 ##### v1.0.0-alpha
 * Released  the setup file which automate the app initialization <br>
-##### v3.0.0-alpha
+##### v1.3.0-alpha
 * Updated the runsetup.bat which now can initialise whole app
 * Modified setup.py
 * Changed version of pyqt5-tools
