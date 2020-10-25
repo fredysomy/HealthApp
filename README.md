@@ -16,6 +16,11 @@ Eg:
 runsetup root student
 ```
 ***runsetup is still in the beta version***
+### Changelog
+#### v1.0.0-alpha
+* Released  the setup file which automate the app initialization
+#### Future releases:
+In v2.0.0 we will be releasing the executables.
 ### Credits:
 * [Fredy Somy](https://github.com/fredysomy)
 * [Shahin Sha](https://github.com/ShahinSha-dot)
