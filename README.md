@@ -13,6 +13,6 @@ runsetup <mysql username> <mysql password>
 ```
 ***runsetup is still in the beta version***
 ### Credits
-* (Fredy Somy)[https://github.com/fredysomy]
-* (Shahin Sha)[https://github.com/ShahinSha-dot]
-* (Alphin Benny)[]
+* ![Fredy Somy](https://github.com/fredysomy)
+* ![Shahin Sha](https://github.com/ShahinSha-dot)
+* ![Alphin Benny]()
