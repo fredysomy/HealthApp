@@ -3,7 +3,7 @@
 ### Prerequisites
 * Mysql command client (any version )
 * Python (😅)
-Download the zip file [from here](https://github.com/fredysomy/HeathApp/archive/v1.0.0-aplha.zip)
+* Download the zip file [from here](https://github.com/fredysomy/HeathApp/archive/v1.0.0-aplha.zip)
 ### Run (Beta version)
 The main project can be settted up easily with the help of 1 command.
 > Navigate to the project folder and open the command window there.
