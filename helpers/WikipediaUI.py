@@ -14,7 +14,7 @@ import requests
 import html5lib
 import mysql.connector as msql
 import yaml
-db = yaml.load(open('../db.yaml'))
+db = yaml.load(open('db.yaml'))
 user=db['user']
 password=db['password']
 con=msql.connect(host="localhost",user=user,passwd=password,database="healthapp")
@@ -131,7 +131,7 @@ class Ui_Wikipedia(object):
             
             
     def wikitextsave(self):
-        s="../txtfiles/"+self.Wikiquery.text()+".txt"
+        s=self.Wikiquery.text()+".txt"
         fd=open(s,'w',encoding='utf-8')
         fd.write(self.wikiresult.toPlainText())
         fd.close()

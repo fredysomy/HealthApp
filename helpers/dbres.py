@@ -11,7 +11,7 @@ import yaml
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QMessageBox
 import mysql.connector as msql
-db = yaml.load(open('../db.yaml'))
+db = yaml.load(open('db.yaml'))
 user=db['user']
 password=db['password']
 con=msql.connect(host="localhost",user=user,passwd=password,database="healthapp")
