@@ -3,10 +3,11 @@
 import mysql.connector as msql
 import yaml
 
-db = yaml.load(open('../db.yaml'))
+db = yaml.load(open('db.yaml'))
 user=db['user']
 password=db['password']
-con=msql.connect(host="localhost",user=user,passwd=password,database="healthapp")
+
+con=msql.connect(host="localhost",user=user,passwd=password)
 
 if con.is_connected():
     
@@ -15,6 +16,10 @@ if con.is_connected():
     cur.execute("use healthapp")
     cur.execute("create table checking (sno int(6) primary key AUTO_INCREMENT,info text(4294967295))")  #Maximum value possible in a text is 4294967295 
     con.commit()
+    print("Database Succesfully created")
+    print("Config files updated")
+    print("All modules are installed")
+    print("You are ready to start the application")
     
 else:
     print('connection error')
