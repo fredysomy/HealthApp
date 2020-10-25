@@ -12,3 +12,7 @@ There is no need to install all the modules as it will be installed when running
 runsetup <mysql username> <mysql password>
 ```
 ***runsetup is still in the beta version***
+### Credits
+* (Fredy Somy)[https://github.com/fredysomy]
+* (Shahin Sha)[https://github.com/ShahinSha-dot]
+* (Alphin Benny)[]
