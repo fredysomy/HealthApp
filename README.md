@@ -3,7 +3,7 @@
 ### Prerequisites:
 * Mysql command client (any version )
 * Python (😅)
-* Download the zip file [from here](https://github.com/fredysomy/HeathApp/archive/v1.0.0-aplha.zip) <br>
+* Download the zip file [from here](https://github.com/fredysomy/HeathApp/archive/v1.3.0-aplha.zip) <br>
 * Or using git :
 ```git 
 git clone https://github.com/fredysomy/HeathApp
@@ -23,6 +23,11 @@ runsetup root student
 ### Changelog
 ##### v1.0.0-alpha
 * Released  the setup file which automate the app initialization <br>
+##### v3.0.0-alpha
+* Updated the runsetup.bat which now can initialise whole app
+* Modified setup.py
+* Changed version of pyqt5-tools
+* Patched errors in helpers
 ##### Future releases:
 * In v1.5.0 we will be releasing version with sqlite support (no need of mysql driver)
 * In v2.0.0 we will be releasing the executables.
