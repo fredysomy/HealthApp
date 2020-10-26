@@ -43,8 +43,8 @@ runsetup root student
 * Changed version of pyqt5-tools
 * Patched errors in helpers
 ##### Future releases:
-* In v1.5.0 we will be releasing version with sqlite support (no need of mysql driver)
-* In v2.0.0 we will be releasing the executables.
+* In **v1.5.0** we will be releasing version with sqlite support (no need of mysql driver)
+* In **v2.0.0** we will be releasing the executables.
 ### Credits:
 * [Fredy Somy](https://github.com/fredysomy)
 * [Shahin Sha](https://github.com/ShahinSha-dot)
