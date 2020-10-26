@@ -8,7 +8,7 @@
 * Changelog
   * [v1.0.0( runsetup added )](https://github.com/fredysomy/HeathApp#v1.0.0-alpha)
   * [v1.3.0](https://github.com/fredysomy/HeathApp#v1.3.0-alpha)
-* [Future releases](https://github.com/fredysomy/HeathApp#Future releases:)
+* [Future releases](https://github.com/fredysomy/HeathApp#Future-releases)
   * v1.5.0 (inbuild database)
   * v2.0.0 ( excecutables )
 * [Credits](https://github.com/fredysomy/HeathApp#Credits)
@@ -42,7 +42,7 @@ runsetup root student
 * Modified setup.py
 * Changed version of pyqt5-tools
 * Patched errors in helpers
-##### Future releases:
+##### Future-releases
 * In **v1.5.0** we will be releasing version with sqlite support (no need of mysql driver)
 * In **v2.0.0** we will be releasing the executables.
 ### Contibute
