@@ -4,7 +4,7 @@
 ### Table of contents
 * [Prerequisites](https://github.com/fredysomy/HeathApp#Prerequisites:)
 * [Setup and Run](https://github.com/fredysomy/HeathApp#Run)
-* Images
+* [Images](https://github.com/fredysomy/HeathApp#Images)
 * Changelog
   * [v1.0.0( runsetup added )](https://github.com/fredysomy/HeathApp#v1.0.0-alpha)
   * [v1.3.0](https://github.com/fredysomy/HeathApp#v1.3.0-alpha)
