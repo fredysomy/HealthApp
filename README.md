@@ -2,17 +2,17 @@
 #### <h3 align=center> A Python desktop application made using PyQT5.It can fetch details about disease from Wikipedia and save them as text files or in database.Also has a Section to search details about doctors in a location which returns there details </h3>
 ***
 ### Table of contents
-* Prerequisites
+* [Prerequisites](https://github.com/fredysomy/HeathApp#Prerequisites:)
 * [Setup and Run](https://github.com/fredysomy/HeathApp#Run)
 * Images
 * Changelog
-  * v1.0.0( runsetup added )
-  * v1.3.0
-* Future releases
+  * [v1.0.0( runsetup added )](https://github.com/fredysomy/HeathApp#v1.0.0-alpha)
+  * [v1.3.0](https://github.com/fredysomy/HeathApp#v1.3.0-alpha)
+* [Future releases](https://github.com/fredysomy/HeathApp#Future releases:)
   * v1.5.0 (inbuild database)
   * v2.0.0 ( excecutables )
-* Credits
-* Contibuting
+* [Credits](https://github.com/fredysomy/HeathApp#Credits)
+* [Contibuting](https://github.com/fredysomy/HeathApp#Contibute)
 ***
 ### Prerequisites:
 * Mysql command client (any version )
@@ -45,6 +45,11 @@ runsetup root student
 ##### Future releases:
 * In **v1.5.0** we will be releasing version with sqlite support (no need of mysql driver)
 * In **v2.0.0** we will be releasing the executables.
+### Contibute
+* Fork the repostory
+* install the dependencies
+* Make your changes
+* And make a pull request from your repo. (I will surely look forward for the PR's)
 ### Credits:
 * [Fredy Somy](https://github.com/fredysomy)
 * [Shahin Sha](https://github.com/ShahinSha-dot)
