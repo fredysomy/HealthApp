@@ -3,7 +3,7 @@
 Table of contents
 * Images
 * Prerequisites
-* [Run](https://github.com/fredysomy/HeathApp/README.md#Run)
+* [Run](https://github.com/fredysomy/HeathApp/README.md/#Run)
 * Changelog
   * v1.0.0
   * v1.3.0
