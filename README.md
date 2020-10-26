@@ -6,11 +6,11 @@
 * [Run](https://github.com/fredysomy/HeathApp#Run)
 * Images
 * Changelog
-  * v1.0.0
+  * v1.0.0( runsetup added )
   * v1.3.0
 * Future releases
-  * v1.5.0
-  * v2.0.0
+  * v1.5.0 (inbuild database)
+  * v2.0.0 ( excecutables )
 * Credits
 * Contibuting
 ***
