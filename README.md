@@ -3,7 +3,7 @@
 Table of contents
 * Images
 * Prerequisites
-* [Run](https://github.com/fredysomy/HeathApp#Run (Stable))
+* [Run](https://github.com/fredysomy/HeathApp#Run)
 * Changelog
   * v1.0.0
   * v1.3.0
@@ -21,7 +21,7 @@ Table of contents
 ```git 
 git clone https://github.com/fredysomy/HeathApp
 ```
-### Run (Stable):
+### Run
 The main project can be settted up easily with the help of 1 command.
 > Navigate to the project folder and open the command window there.
 There is no need to install all the modules as it will be installed when running the below command.
