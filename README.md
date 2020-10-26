@@ -16,6 +16,7 @@
 ***
 ### Prerequisites:
 * Mysql command client (any version )
+> New version will be released with inbuild database.
 * Python (😅)
 * Download the zip file [from here](https://github.com/fredysomy/HeathApp/archive/v1.3.0-aplha.zip) <br>
 * Or using git :
