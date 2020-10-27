@@ -22,8 +22,8 @@
     <img src="https://img.shields.io/github/repo-size/fredysomy/HealthApp"></img>
     <img src="https://img.shields.io/github/commits-since/fredysomy/HealthApp/v1.5.0"></img>
     <img src="https://img.shields.io/badge/maintainer-fredysomy-blue"></img>
-  </p>
-***
+</p>
+
 ## Table of contents
 * [Prerequisites](#prerequisites)
 * [Setup and Run](#run)
