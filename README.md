@@ -4,6 +4,7 @@
       alt="Node.js"
       src="https://github.com/fredysomy/HealthApp/blob/master/img/Cardiovascularofessional%20Society.png"
       width="400"
+         height="300"
     />
   </a>
 </p>
