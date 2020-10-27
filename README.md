@@ -74,9 +74,9 @@ runsetup
 * Make your changes
 * And make a pull request from your repo. (I will surely look forward for the PR's)
 ## Downloads
-* [v1.0.0]()
-* [v1.3.0]()
-* [v1.5.0]()
+* [v1.0.0(Mysql driver)](https://github.com/fredysomy/HealthApp/archive/v1.0.0-aplha.zip)
+* [v1.3.0](https://github.com/fredysomy/HealthApp/archive/v1.3.0-aplha.zip)
+* [v1.5.0(Inbuild database)](https://github.com/fredysomy/HealthApp/archive/v1.5.0.zip)
 
 ## Credits:
 * [Fredy Somy](https://github.com/fredysomy)
