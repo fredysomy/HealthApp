@@ -25,7 +25,7 @@
 ***
 ## Prerequisites:
 * Mysql command client (any version ) **Not needed from [v1.5.0](#v150)**
-> New version will be released with inbuild database.
+> [New version will be released with inbuild database.-Released v1.5.0](#v150)
 * Python (😅)
 * Download the zip file [from here](https://github.com/fredysomy/HeathApp/archive/v1.5.0.zip) <br>
 * Or using git :
