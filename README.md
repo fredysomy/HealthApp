@@ -8,6 +8,7 @@
 ![djjd](https://img.shields.io/github/languages/count/fredysomy/HealthApp)
 ![jdj](https://img.shields.io/github/languages/code-size/fredysomy/HealthApp)
 ![jdj](https://img.shields.io/github/commits-since/fredysomy/HealthApp/v1.5.0)
+![imga](https://img.shields.io/badge/maintainer-fredysomy-blue)
 ***
 ## Table of contents
 * [Prerequisites](#prerequisites)
