@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/fredysomy/HealthApp>
+  <a href="https://github.com/fredysomy/HealthApp">
     <img
       alt="Healthapp"
       src="https://github.com/fredysomy/HealthApp/blob/master/img/Cardiovascularofessional%20Society.png"
