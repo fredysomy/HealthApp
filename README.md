@@ -37,11 +37,11 @@ The main project can be settted up easily with the help of 1 command.
 > Navigate to the project folder and open the command window there.
 There is no need to install all the modules as it will be installed when running the below command.
 ```batch
-runsetup <mysql username> <mysql password>
+runsetup
 ```
 Eg:
 ```batch
-runsetup root student
+runsetup 
 ```
 ## Images
 ![img1](https://github.com/fredysomy/HeathApp/blob/master/img/s1.png)
