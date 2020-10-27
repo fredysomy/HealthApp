@@ -7,7 +7,8 @@
     />
   </a>
 </p>
-#### <h3 align=center> A Python desktop application to fetch details about disease from Wikipedia and search details about doctors in a location.(Saving feature is enabled) </h3>
+
+<h3 align=center> A Python desktop application to fetch details about disease from Wikipedia and search details about doctors in a location.(Saving feature is enabled) </h3>
 ![imga](https://img.shields.io/badge/Healthapp-v1.5.0-green)
 ![img2](https://img.shields.io/github/stars/fredysomy/HealthApp)
 ![imgs](https://img.shields.io/github/license/fredysomy/HealthApp)
