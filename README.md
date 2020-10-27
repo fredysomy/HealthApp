@@ -5,6 +5,9 @@
 ![imgs](https://img.shields.io/github/license/fredysomy/HealthApp)
 ![imga](https://img.shields.io/github/forks/fredysomy/HealthApp)
 ![imhsh](https://img.shields.io/github/issues/fredysomy/HealthApp)
+![djjd](https://img.shields.io/github/languages/count/fredysomy/HealthApp)
+![jdj](https://img.shields.io/github/languages/code-size/fredysomy/HealthApp)
+![jdj](https://img.shields.io/github/commits-since/fredysomy/HealthApp/v1.3.0-alpha)
 ***
 ## Table of contents
 * [Prerequisites](#prerequisites)
