@@ -1,5 +1,5 @@
 ![img](https://socialify.git.ci/fredysomy/HealthApp/image?description=1&descriptionEditable=A%20%F0%9F%90%8DPython%20desktop%20application.&language=1&pattern=Signal&theme=Dark)
-#### <h3 align=center> A Python desktop application to fetch details about disease from Wikipedia and save them (text files/ in database) and search details about doctors in a location. </h3>
+#### <h3 align=center> A Python desktop application to fetch details about disease from Wikipedia and search details about doctors in a location.(Saving feature is enabled) </h3>
 ![imga](https://img.shields.io/badge/Healthapp-v1.5.0-green)
 ![img2](https://img.shields.io/github/stars/fredysomy/HealthApp)
 ![imgs](https://img.shields.io/github/license/fredysomy/HealthApp)
