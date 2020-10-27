@@ -1,6 +1,10 @@
-![img](https://socialify.git.ci/fredysomy/HealthApp/image?description=1&descriptionEditable=A%20%F0%9F%90%8D%20Python%20desktop%20application.&font=Source%20Code%20Pro&forks=1&issues=1&language=1&pattern=Signal&pulls=1&stargazers=1&theme=Dark)
+![img](https://socialify.git.ci/fredysomy/HealthApp/image?description=1&descriptionEditable=A%20%F0%9F%90%8DPython%20desktop%20application.&language=1&pattern=Signal&theme=Dark)
 #### <h3 align=center> A Python desktop application made using PyQT5.It can fetch details about disease from Wikipedia and save them as text files or in database.Also has a Section to search details about doctors in a location which returns there details </h3>
 ![imga](https://img.shields.io/badge/Healthapp-v1.3.0-green)
+![img2](https://img.shields.io/github/stars/fredysomy/HealthApp)
+![imgs](https://img.shields.io/github/license/fredysomy/HealthApp)
+![imga](https://img.shields.io/github/forks/fredysomy/HealthApp)
+![imhsh](https://img.shields.io/github/issues/fredysomy/HealthApp)
 ***
 ## Table of contents
 * [Prerequisites](#prerequisites)
