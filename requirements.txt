@@ -9,5 +9,5 @@ PyQt5==5.15.1
 PyYAML==5.3.1
 requests==2.23.0
 selenium==3.141.0
-urllib3==1.25.8
+urllib3==1.25.9
 
