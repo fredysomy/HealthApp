@@ -8,7 +8,8 @@
   </a>
 </p>
 
-#### <h3 align=center>A Python desktop application to fetch details about disease from Wikipedia and search details about doctors in a location</h3>
+# <h1 align=center>HealthApp</h1>
+### <h2 align=center>A Python desktop application to fetch details about disease from Wikipedia and search details about doctors in a location</h2>
 ![imga](https://img.shields.io/badge/Healthapp-v1.5.0-green)
 ![img2](https://img.shields.io/github/stars/fredysomy/HealthApp)
 ![imgs](https://img.shields.io/github/license/fredysomy/HealthApp)
