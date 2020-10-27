@@ -7,6 +7,7 @@
 ![imhsh](https://img.shields.io/github/issues/fredysomy/HealthApp)
 ![djjd](https://img.shields.io/github/languages/count/fredysomy/HealthApp)
 ![jdj](https://img.shields.io/github/languages/code-size/fredysomy/HealthApp)
+![](https://img.shields.io/github/repo-size/fredysomy/HealthApp)
 ![jdj](https://img.shields.io/github/commits-since/fredysomy/HealthApp/v1.5.0)
 ![imga](https://img.shields.io/badge/maintainer-fredysomy-blue)
 ![jdggg](https://img.shields.io/snyk/vulnerabilities/github/fredysomy/HealthApp)
