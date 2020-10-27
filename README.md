@@ -1,13 +1,13 @@
 ![img](https://socialify.git.ci/fredysomy/HealthApp/image?description=1&descriptionEditable=A%20%F0%9F%90%8DPython%20desktop%20application.&language=1&pattern=Signal&theme=Dark)
 #### <h3 align=center> A Python desktop application made using PyQT5.It can fetch details about disease from Wikipedia and save them as text files or in database.Also has a Section to search details about doctors in a location which returns there details </h3>
-![imga](https://img.shields.io/badge/Healthapp-v1.3.0-green)
+![imga](https://img.shields.io/badge/Healthapp-v1.5.0-green)
 ![img2](https://img.shields.io/github/stars/fredysomy/HealthApp)
 ![imgs](https://img.shields.io/github/license/fredysomy/HealthApp)
 ![imga](https://img.shields.io/github/forks/fredysomy/HealthApp)
 ![imhsh](https://img.shields.io/github/issues/fredysomy/HealthApp)
 ![djjd](https://img.shields.io/github/languages/count/fredysomy/HealthApp)
 ![jdj](https://img.shields.io/github/languages/code-size/fredysomy/HealthApp)
-![jdj](https://img.shields.io/github/commits-since/fredysomy/HealthApp/v1.3.0-alpha)
+![jdj](https://img.shields.io/github/commits-since/fredysomy/HealthApp/v1.5.0-alpha)
 ***
 ## Table of contents
 * [Prerequisites](#prerequisites)
@@ -24,10 +24,10 @@
 * [Contibuting](#contibute)
 ***
 ## Prerequisites:
-* Mysql command client (any version )
+* Mysql command client (any version ) **Not needed from [v1.5.0](#v150)**
 > New version will be released with inbuild database.
 * Python (😅)
-* Download the zip file [from here](https://github.com/fredysomy/HeathApp/archive/v1.3.0-aplha.zip) <br>
+* Download the zip file [from here](https://github.com/fredysomy/HeathApp/archive/v1.5.0.zip) <br>
 * Or using git :
 ```git 
 git clone https://github.com/fredysomy/HeathApp
