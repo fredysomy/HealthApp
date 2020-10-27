@@ -52,14 +52,14 @@ runsetup
 ![img6](https://github.com/fredysomy/HeathApp/blob/master/img/s6.png)
 ![img7](https://github.com/fredysomy/HeathApp/blob/master/img/s7.png)
 ## Changelog
-#### v1.0.0-alpha
+### v1.0.0-alpha
 * Released  the setup file which automate the app initialization <br>
-#### v1.3.0-alpha
+### v1.3.0-alpha
 * Updated the runsetup.bat which now can initialise whole app
 * Modified setup.py
 * Changed version of pyqt5-tools
 * Patched errors in helpers
-#### v1.5.0
+### v1.5.0
 * **Added inbuilt database**
 * Modeified setup.py
 * Modified runsetup.bat
