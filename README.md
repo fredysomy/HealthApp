@@ -2,7 +2,7 @@
 #### <h3 align=center> A Python desktop application made using PyQT5.It can fetch details about disease from Wikipedia and save them as text files or in database.Also has a Section to search details about doctors in a location which returns there details </h3>
 ***
 ## Table of contents
-* [Prerequisites](https://github.com/fredysomy/HeathApp#Prerequisites:)
+* [Prerequisites](#Prerequisites:)
 * [Setup and Run](https://github.com/fredysomy/HeathApp#Run)
 * [Images](https://github.com/fredysomy/HeathApp#Images)
 * Changelog
