@@ -11,16 +11,18 @@
 
 # <h1 align=center>HealthApp</h1>
 ### <h2 align=center>A Python desktop application to fetch details about disease from Wikipedia and search details about doctors in a location</h2>
-![imga](https://img.shields.io/badge/Healthapp-v1.5.0-green)
-![img2](https://img.shields.io/github/stars/fredysomy/HealthApp)
-![imgs](https://img.shields.io/github/license/fredysomy/HealthApp)
-![imga](https://img.shields.io/github/forks/fredysomy/HealthApp)
-![imhsh](https://img.shields.io/github/issues/fredysomy/HealthApp)
-![djjd](https://img.shields.io/github/languages/count/fredysomy/HealthApp)
-![jdj](https://img.shields.io/github/languages/code-size/fredysomy/HealthApp)
-![](https://img.shields.io/github/repo-size/fredysomy/HealthApp)
-![jdj](https://img.shields.io/github/commits-since/fredysomy/HealthApp/v1.5.0)
-![imga](https://img.shields.io/badge/maintainer-fredysomy-blue)
+<p align="center">
+    <img src="https://img.shields.io/badge/Healthapp-v1.5.0-green"></img>
+    <img src="https://img.shields.io/github/stars/fredysomy/HealthApp"></img>
+    <img src="https://img.shields.io/github/license/fredysomy/HealthApp"></img>
+    <img src="https://img.shields.io/github/forks/fredysomy/HealthApp"></img>
+    <img src="https://img.shields.io/github/issues/fredysomy/HealthApp"></img>
+    <img src="https://img.shields.io/github/languages/count/fredysomy/HealthApp"></img>
+    <img src="https://img.shields.io/github/languages/code-size/fredysomy/HealthApp"></img>
+    <img src="https://img.shields.io/github/repo-size/fredysomy/HealthApp"></img>
+    <img src="https://img.shields.io/github/commits-since/fredysomy/HealthApp/v1.5.0"></img>
+    <img src="https://img.shields.io/badge/maintainer-fredysomy-blue"></img>
+  </p>
 ***
 ## Table of contents
 * [Prerequisites](#prerequisites)
