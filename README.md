@@ -23,6 +23,7 @@
   * v2.0.0 ( excecutables )
 * [Credits](#credits)
 * [Contibuting](#contibute)
+* [Downloads](#downloads)
 ***
 ## Prerequisites:
 * Mysql command client (any version ) **Not needed from [v1.5.0](#v150)**
@@ -72,6 +73,11 @@ runsetup
 * install the dependencies
 * Make your changes
 * And make a pull request from your repo. (I will surely look forward for the PR's)
+## Downloads
+* [v1.0.0]()
+* [v1.3.0]()
+* [v1.5.0]()
+
 ## Credits:
 * [Fredy Somy](https://github.com/fredysomy)
 * [Shahin Sha](https://github.com/ShahinSha-dot)
