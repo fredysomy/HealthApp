@@ -6,8 +6,8 @@
 * [Setup and Run](#run)
 * [Images](#images)
 * Changelog
-  * [v1.0.0( runsetup added )](#v1.0.0-alpha)
-  * [v1.3.0](#v1.3.0-alpha)
+  * [v1.0.0( runsetup added )](#v100-alpha)
+  * [v1.3.0](#v130-alpha)
 * [Future releases](#future-releases)
   * v1.5.0 (inbuild database)
   * v2.0.0 ( excecutables )
