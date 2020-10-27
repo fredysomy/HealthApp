@@ -1,7 +1,7 @@
 <p align="center">
-  <a href="https://nodejs.org/">
+  <a href="https://github.com/fredysomy/HealthApp>
     <img
-      alt="Node.js"
+      alt="Healthapp"
       src="https://github.com/fredysomy/HealthApp/blob/master/img/Cardiovascularofessional%20Society.png"
       width="400"
          height="250"
