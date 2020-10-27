@@ -1,30 +1,32 @@
 #for creating a database and table 
 
-import mysql.connector as msql
-import yaml
-
-db = yaml.load(open('db.yaml'))
-user=db['user']
-password=db['password']
+import sqlite3
 print("###################### Setting up Database ######################")
 
-con=msql.connect(host="localhost",user=user,passwd=password)
+conn=sqlite3.connect('database.db')
+conn.execute("create table checking (info text(4294967295))")  
+conn.commit()
+print("---------------------------------------------------------------------")
+print("---------------------------------------------------------------------")
+print("################# Database Succesfully created ####################")
+print("-------------------------------------------------------------------")
+print("####################### Config files updated ######################")
+print("--------------------------------------------------------------------")
+print("#################### All modules are installed ####################")
+print("---------------------------------------------------------------------")
+print("---------------------------------------------------------------------")
+print("############## You are ready to start the application #############")
+print("---------------------------------------------------------------------")
+print("---------------------------------------------------------------------")
+print("---------------------------------------------------------------------")
+print("---------------------------------------------------------------------")
+print("################## Open the app at healthapp.py ###################")
+print("---------------------------------------------------------------------")
+print("---------------------------------------------------------------------")
+print("---------------------------------------------------------------------")
 
-if con.is_connected():
-    
-    cur=con.cursor()
-    cur.execute("create database healthapp")
-    cur.execute("use healthapp")
-    cur.execute("create table checking (sno int(6) primary key AUTO_INCREMENT,info text(4294967295))")  #Maximum value possible in a text is 4294967295 
-    con.commit()
-    print("############ Database Succesfully created ##########")
-    print("############### Config files updated ###############")
-    print("############## All modules are installed ############")
-    print("######### You are ready to start the application ######")
-    print("########### Open the app at healthapp.py ##############")
 
-else:
-    print('connection error')
+
     
 #Dont change the code cauz changing could affect the making of database
 #DATABASE SETUP CODE

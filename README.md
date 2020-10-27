@@ -16,6 +16,7 @@
 * Changelog
   * [v1.0.0( runsetup added )](#v100-alpha)
   * [v1.3.0](#v130-alpha)
+  * [v1.5.0](#v150)
 * [Future releases](#future-releases)
   * v1.5.0 (inbuild database)
   * v2.0.0 ( excecutables )
@@ -58,8 +59,12 @@ runsetup root student
 * Modified setup.py
 * Changed version of pyqt5-tools
 * Patched errors in helpers
+#### v1.5.0
+* **Added inbuilt database**
+* Modeified setup.py
+* Modified runsetup.bat
 #### Future-releases
-* In **v1.5.0** we will be releasing version with sqlite support (no need of mysql driver)
+
 * In **v2.0.0** we will be releasing the executables.
 ## Contibute
 * Fork the repostory
