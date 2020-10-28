@@ -24,7 +24,7 @@
     <img src="https://img.shields.io/badge/maintainer-fredysomy-blue"></img>
     
 </p>
-[• Setup and Run](#run) [• Downloads](#downloads) [•Credits](#credits)
+[Setup and Run](#run) [Downloads](#downloads) [Credits](#credits)
 
 ## Table of contents
 * [Prerequisites](#prerequisites)
