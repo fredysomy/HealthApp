@@ -12,7 +12,7 @@
 # <h1 align=center>HealthApp</h1>
 #### <h3 align=center>A Python desktop application to fetch details about disease from Wikipedia and search details about doctors in a location</h3>
 <p align="center">
-    <img src="https://img.shields.io/badge/Healthapp-v1.6.0-beta-green"></img>
+    <img src="https://img.shields.io/badge/Healthapp-v1.6.0beta-green"></img>
     <img src="https://img.shields.io/github/stars/fredysomy/HealthApp"></img>
     <img src="https://img.shields.io/github/license/fredysomy/HealthApp"></img>
     <img src="https://img.shields.io/github/forks/fredysomy/HealthApp"></img>
