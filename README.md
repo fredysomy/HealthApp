@@ -24,7 +24,7 @@
     <img src="https://img.shields.io/badge/maintainer-fredysomy-blue"></img>
     
 </p>
-<p align=center>[Setup and Run](#run)</p>
+<a align=center href="#run">Setup and Run</a>
 ## Table of contents
 * [Prerequisites](#prerequisites)
 * [Setup and Run](#run)
