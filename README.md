@@ -46,6 +46,7 @@
 * Mysql command client (any version ) **Not needed from [v1.5.0](#v150)**
 > [New version will be released with inbuild database.-Released v1.5.0](#v150)
 * Python (😅)
+> [Executables are out!!!!](https://github.com/fredysomy/HealthApp/releases/tag/v1.6.0-beta)
 * Download the zip file [from here](https://github.com/fredysomy/HeathApp/archive/v1.5.0.zip) <br>
 * Or using git :
 ```git 
