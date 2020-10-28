@@ -98,4 +98,4 @@ runsetup
 * [Fredy Somy](https://github.com/fredysomy)
 * [Shahin Sha](https://github.com/ShahinSha-dot)
 * [Alphin Benny]()
-* [Rohan Diju(Executable Release)](https://github.com/RohanDiju)
+* [Rohan Diju( Executables Release )](https://github.com/RohanDiju)
