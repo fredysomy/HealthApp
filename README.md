@@ -34,6 +34,7 @@
   * [v1.0.0( runsetup added )](#v100-alpha)
   * [v1.3.0](#v130-alpha)
   * [v1.5.0](#v150)
+  * [v1.6.0](#v160)
 * [Future releases](#future-releases)
   * v1.5.0 (inbuild database)
   * v2.0.0 ( excecutables )
@@ -81,9 +82,11 @@ runsetup
 * **Added inbuilt database**
 * Modeified setup.py
 * Modified runsetup.bat
+### v1.6.0 
+* [Windows 64 bit executables released.](https://github.com/fredysomy/HealthApp/releases/tag/v1.6.0-beta)
 #### Future-releases
 
-* In **v2.0.0** we will be releasing the executables.
+* In **v1.7.0** we will be releasing the executables for Windows 32 bit.
 ## Contibute
 * Fork the repostory
 * install the dependencies
