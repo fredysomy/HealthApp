@@ -26,7 +26,6 @@
 </p>
 
 <p align=center>
-
 <a href="#run">Run</a> 
 <a href="#downloads">Downloads</a>
 <a href="#credit">Credits</a>
