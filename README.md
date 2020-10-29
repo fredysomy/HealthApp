@@ -25,9 +25,11 @@
     
 </p>
 
+<p align=center>
 [ • Setup and Run](#run) 
 [ • Downloads](#downloads) 
 [ • Credits](#credits)
+</p>
 
 ## Table of contents
 * [Prerequisites](#prerequisites)
