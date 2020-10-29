@@ -26,9 +26,11 @@
 </p>
 
 <p align=center>
-[ • Setup and Run](#run) 
-[ • Downloads](#downloads) 
-[ • Credits](#credits)
+
+<a href="#run">Run</a> 
+<a href="#downloads">Downloads</a>
+<a href="#credit">Credits</a>
+
 </p>
 
 ## Table of contents
