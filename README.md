@@ -26,15 +26,14 @@
 </p>
 
 <p align=center>
-<a href="#run">Run</a> 
-<a href="#downloads">Downloads</a>
-<a href="#credit">Credits</a>
+<a href="#run"> • Run</a> 
+<a href="#downloads"> • Downloads</a>
+<a href="#credit"> • Credits</a>
 
 </p>
 
 ## Table of contents
 * [Prerequisites](#prerequisites)
-* [Setup and Run](#run)
 * [Images](#images)
 * Changelog
   * [v1.0.0( runsetup added )](#v100-alpha)
@@ -44,9 +43,7 @@
 * [Future releases](#future-releases)
   * v1.5.0 (inbuild database)
   * v2.0.0 ( excecutables )
-* [Credits](#credits)
 * [Contibuting](#contibute)
-* [Downloads](#downloads)
 ***
 ## Prerequisites:
 * Mysql command client (any version ) **Not needed from [v1.5.0](#v150)**
