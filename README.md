@@ -20,7 +20,7 @@
     <img src="https://img.shields.io/github/languages/count/fredysomy/HealthApp"></img>
     <img src="https://img.shields.io/github/languages/code-size/fredysomy/HealthApp"></img>
     <img src="https://img.shields.io/github/repo-size/fredysomy/HealthApp"></img>
-    <img src="https://img.shields.io/github/commits-since/fredysomy/HealthApp/v1.5.0"></img>
+    <img src="https://img.shields.io/github/commits-since/fredysomy/HealthApp/v1.6.0beta"></img>
     <img src="https://img.shields.io/badge/maintainer-fredysomy-blue"></img>
     
 </p>
