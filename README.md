@@ -102,7 +102,6 @@ runsetup
 * [v1.5.0(Inbuild database)](https://github.com/fredysomy/HealthApp/archive/v1.5.0.zip)
 
 ## Credits:
-* [Fredy Somy](https://github.com/fredysomy)
 * [Shahin Sha](https://github.com/ShahinSha-dot)
 * [Alphin Benny]()
 * [Rohan Diju( Executables Release )](https://github.com/RohanDiju)
