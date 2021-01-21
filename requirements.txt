@@ -7,7 +7,7 @@ numpy==1.18.5
 pipwin==0.4.9
 PyPrind==2.11.2
 PyQt5==5.15.1
-PyYAML==5.3.1
+PyYAML==5.4
 requests==2.23.0
 selenium==3.141.0
 urllib3==1.25.9
