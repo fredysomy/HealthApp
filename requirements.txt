@@ -3,7 +3,7 @@ html5lib==1.0.1
 matplotlib-3.3.3
 mysql-connector==2.2.9
 mysql-connector-python==8.0.21
-numpy==1.18.5
+numpy==1.22.0
 pipwin==0.4.9
 PyPrind==2.11.2
 PyQt5==5.15.1
