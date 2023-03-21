@@ -22,7 +22,8 @@
     <img src="https://img.shields.io/github/repo-size/fredysomy/HealthApp"></img>
     <img src="https://img.shields.io/github/commits-since/fredysomy/HealthApp/v.1.7.0-beta"></img>
     <img src="https://img.shields.io/badge/maintainer-fredysomy-blue"></img>
-    
+     <img src="https://img.shields.io/github/downloads/fredysomy/HealthApp/total"></img>
+
 </p>
 
 <p align=center>
