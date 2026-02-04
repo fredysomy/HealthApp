@@ -12,3 +12,4 @@ requests==2.23.0
 selenium==3.141.0
 urllib3==1.25.9
 
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
